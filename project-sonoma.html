@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sonoma - İç Mimar Portalı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="nav">
+    <div class="nav-inner">
+      <div class="leftnav">
+        <span class="brand"><a class="brand" href="index.html">İç Mimar Portalı</a></span>
+        <a href="index.html">Ana Sayfa</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="experience.html">Deneyim</a>
+        <a href="about.html">Hakkında</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation menu">&#9776;</summary>
+        <div class="mobile-menu-panel">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="experience.html">Deneyim</a>
+          <a href="about.html">Hakkında</a>
+          <a href="contact.html">İletişim</a>
+        </div>
+      </details>
+      <div><a href="resume.html">Özgeçmiş</a></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="project-header">
+      <a href="portfolio.html" class="back-link">&larr; Portfolio'ya Dön</a>
+      <h1>Sonoma</h1>
+      <p class="project-meta">2024 • Tasarım ve Uygulama</p>
+    </div>
+
+    <div class="project-content">
+      <div class="project-hero">
+        <img src="buse.jpg" alt="Sonoma Projesi" />
+      </div>
+
+      <div class="project-details">
+        <section class="project-section">
+          <h2>Proje Özeti</h2>
+          <p>Sonoma bölgesindeki evin iç tasarımı, kırsal kültürü ve modern rahatlığı bir araya getiren bir çalışma. Doğal ışık ve açık mekanlar burada öne çıkmaktadır.</p>
+        </section>
+
+        <section class="project-section">
+          <h2>Tasarım Özellikleri</h2>
+          <ul>
+            <li>Rustik modern tasarım konsepti</li>
+            <li>Açık mutfak ve yemek alanı</li>
+            <li>Isıtmalı verandalar</li>
+            <li>Doğal materyal kullanımı</li>
+            <li>Ahşap ve taş kombinasyonları</li>
+          </ul>
+        </section>
+
+        <section class="project-section">
+          <h2>Yüzölçüm ve Konumu</h2>
+          <p><strong>Toplam Alan:</strong> 400 m²</p>
+          <p><strong>Yaşam Alanı:</strong> 4 yatak odası, 2 banyo, salon, açık mutfak, veranda</p>
+          <p><strong>Konum:</strong> Sonoma Vadisi - Şarap Bölgesi</p>
+        </section>
+
+        <section class="project-section">
+          <h2>Malzeme ve Doku</h2>
+          <ul>
+            <li>Kirli beyaz ve krem rengi boyalar</li>
+            <li>Ahşap kiriş tavanlı sistemler</li>
+            <li>Taş bacası ve şömine</li>
+            <li>Kırsal ahşap mobilya</li>
+          </ul>
+        </section>
+
+        <section class="project-section">
+          <h2>Proje Fotoğrafları</h2>
+          <div class="project-gallery">
+            <img src="buse.jpg" alt="Sonoma - Giriş" />
+            <img src="buse.jpg" alt="Sonoma - Açık Mutfak" />
+            <img src="buse.jpg" alt="Sonoma - Salon" />
+            <img src="buse.jpg" alt="Sonoma - Veranda" />
+          </div>
+        </section>
+      </div>
+
+      <aside class="project-sidebar">
+        <div class="project-info-box">
+          <h3>Proje Bilgileri</h3>
+          <ul>
+            <li><strong>Tür:</strong> Rustik Modern</li>
+            <li><strong>Alan:</strong> 400 m²</li>
+            <li><strong>Yıl:</strong> 2024</li>
+            <li><strong>Durum:</strong> Tamamlanmış</li>
+          </ul>
+        </div>
+
+        <div class="project-nav-box">
+          <h3>Diğer Projeler</h3>
+          <ul class="project-nav">
+            <li><a href="project-mountain.html">Dağ Evleri</a></li>
+            <li><a href="project-valley.html">Vadi Evi</a></li>
+            <li><a href="project-eastend.html">East Hampton</a></li>
+            <li><a href="project-cabins.html">Montana Kabin</a></li>
+            <li><a href="project-broadmoor.html">Broadmoor</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="page-pager">
+      <a class="page-pager-link" href="project-broadmoor.html">&larr; Önceki Proje: Broadmoor</a>
+      <a class="page-pager-link" href="portfolio.html">Portfolio'ya Dön &rarr;</a>
+    </footer>
+  </main>
+
+  <style>
+    .project-header { margin-bottom: 2rem; }
+    .back-link { display: inline-block; margin-bottom: 1rem; color: #666; text-decoration: none; font-size: 0.9rem; }
+    .back-link:hover { color: #000; }
+    .project-meta { color: #999; font-size: 0.9rem; }
+    .project-content { display: grid; grid-template-columns: 1fr 300px; gap: 2rem; margin: 2rem 0; }
+    .project-hero img { width: 100%; height: auto; margin-bottom: 2rem; }
+    .project-section { margin-bottom: 2rem; }
+    .project-section h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+    .project-section ul { list-style: none; padding: 0; }
+    .project-section ul li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
+    .project-section ul li:before { content: "•"; position: absolute; left: 0; }
+    .project-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+    .project-gallery img { width: 100%; height: 300px; object-fit: cover; }
+    .project-sidebar { position: sticky; top: 100px; height: fit-content; }
+    .project-info-box, .project-nav-box { background: #f5f5f5; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 4px; }
+    .project-info-box h3, .project-nav-box h3 { font-size: 1rem; margin-bottom: 1rem; }
+    .project-nav { list-style: none; padding: 0; }
+    .project-nav li { margin-bottom: 0.5rem; }
+    .project-nav a { color: #333; text-decoration: none; font-size: 0.9rem; }
+    .project-nav a:hover { color: #666; }
+    @media (max-width: 768px) {
+      .project-content { grid-template-columns: 1fr; }
+      .project-sidebar { position: static; }
+      .project-gallery { grid-template-columns: 1fr; }
+      .project-gallery img { height: 200px; }
+    }
+  </style>
+</body>
+</html>
