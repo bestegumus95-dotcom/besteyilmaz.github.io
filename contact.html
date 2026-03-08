@@ -2,12 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="refresh" content="0; url=resume.html" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Moved • Ulubilge Ulusoy</title>
-  <link rel="canonical" href="resume.html" />
+  <title>İletişim - İç Mimar Portalı</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <p>This page moved to <a href="resume.html">özgeçmiş</a>.</p>
+    <div class="nav">
+    <div class="nav-inner">
+      <div class="leftnav">
+        <span class="brand"><a class="brand" href="index.html">İç Mimar Portalı</a></span>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="experience.html">Deneyim</a>
+        <a href="about.html">Hakkında</a>
+        <a class="active" href="contact.html">İletişim</a>
+      </div>
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation menu">&#9776;</summary>
+        <div class="mobile-menu-panel">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="experience.html">Deneyim</a>
+          <a href="about.html">Hakkında</a>
+          <a class="active" href="contact.html">İletişim</a>
+        </div>
+      </details>
+      <div><a href="resume.html">Özgeçmiş</a></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <h1>İletişim</h1>
+    <p class="subtitle">Benimle iletişime geçin ve yeni tasarım projeleriniz için görüşelim.</p>
+
+    <div class="grid">
+      <div class="card highlight">
+        <h3>İletişim Bilgileri</h3>
+        <ul>
+          <li><strong>E-posta:</strong> <a href="mailto:iletisim@example.com">iletisim@example.com</a></li>
+          <li><strong>Telefon:</strong> <a href="tel:+905551234567">+90 555 123 45 67</a></li>
+          <li><strong>Ofis:</strong> İstanbul, Türkiye</li>
+        </ul>
+      </div>
+
+      <div class="card highlight">
+        <h3>Sosyal Medya</h3>
+        <p class="pub-actions" aria-label="Social profile links">
+          <a class="home-social-btn" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.646.069 4.85 0 3.204-.012 3.584-.07 4.85-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.85-.07-3.251-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/></svg>
+          </a>
+          <a class="home-social-btn" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3V9zm7 0h3.83v1.64h.05c.53-1 1.84-2.06 3.78-2.06C21.1 8.58 22 10.6 22 13.2V21h-4v-6.92c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.66V21h-4V9z"/></svg>
+          </a>
+        </p>
+      </div>
+
+      <div class="card highlight">
+        <h3>İletişim Formu</h3>
+        <p>Projeniz hakkında bilgi vermek için lütfen aşağıdaki alanları doldurunuz:</p>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Adınız *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-posta *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Konu *</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mesajınız *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Gönder</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="page-pager">
+      <a class="page-pager-link" href="about.html" aria-label="Go to previous page: Hakkında">&larr; Geri Dön</a>
+      <a class="page-pager-link" href="resume.html" aria-label="Go to next page: Özgeçmiş">Özgeçmiş &rarr;</a>
+    </footer>
+  </main>
 </body>
 </html>
